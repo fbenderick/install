@@ -13,6 +13,6 @@ pacstrap /mnt base base-devel
 genfstab -U -p /mnt >> /mnt/etc/fstab
 
 # copy install scripts
-cp /root/install/20-chroot.sh /mnt/root/
+# cp /root/install/20-chroot.sh /mnt/root/
 # arch-chroot /mnt /root/20-chroot.sh
 # reboot
