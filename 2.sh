@@ -52,8 +52,6 @@ pacman -Suy sudo
 EDITOR=nvim visudo
 
 # need git to clone boostrap repo
-pacman -Suy git
-
 echo 'Base installation finished'
-echo 'Now, reboot, login with user, clone repo and and run aa scripts from 2-user'
+echo 'Now, reboot, install openssh, start daemon and orchestrate bootstrap with Ansible'
 read -p "Press enter to continue"
